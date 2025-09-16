@@ -1,0 +1,67 @@
+/* --- SecurityHeader Styles --- */
+.security-header {
+  display: flex;
+  align-items: center;
+  background: #fafbfc;
+  border-radius: 16px;
+  padding: 18px 32px;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.05);
+  max-width: 600px;
+  margin: 24px auto 0 auto;
+  gap: 32px;
+}
+
+.security-header-user {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: #fff;
+  border-radius: 24px;
+  padding: 6px 18px 6px 6px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+}
+
+.security-header-avatar {
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eceafe;
+}
+
+.security-header-icon {
+  background: #6c4cf1;
+  border-radius: 50%;
+  width: 38px;
+  height: 38px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 4px;
+}
+
+.security-header-name {
+  font-size: 1.08rem;
+  color: #222;
+  font-weight: 500;
+  margin-left: 2px;
+}
+
+.security-header-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.security-header-title {
+  font-size: 1.6rem;
+  font-weight: 600;
+  color: #222;
+  margin-bottom: 2px;
+}
+
+.security-header-notification {
+  font-size: 0.8rem;
+  color: #666;
+}

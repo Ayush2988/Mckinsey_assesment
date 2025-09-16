@@ -1,0 +1,141 @@
+/* --- MetricsCard Styles --- */
+.metrics-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 28px 32px 22px 32px;
+  max-width: 340px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.metrics-card-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 18px;
+  margin-bottom: 18px;
+}
+
+.metrics-avatar {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid #eceafe;
+}
+
+.metrics-pin {
+  background: #6c4cf1 ;
+  font-size: 1.3rem;
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 8px;
+}
+
+.metrics-icon-group {
+  display: flex;
+  gap: 8px;
+  margin-left: auto;
+}
+
+.metrics-icon {
+  font-size: 1.3rem;
+  color: #888;
+  background: #f3f4f6;
+  border-radius: 50%;
+  width: 32px;
+  height: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.metrics-card-tabs {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 18px;
+  justify-content: center;
+}
+
+.metrics-tab {
+  background: #f3f4f6;
+  border: none;
+  border-radius: 12px;
+  padding: 6px 18px;
+  font-size: 0.7rem;
+  color: #888;
+  cursor: pointer;
+  font-weight: 700;
+  transition: background 0.2s, color 0.2s;
+}
+
+.metrics-tab-active {
+  background: #eceafe;
+  color: #6c4cf1;
+  border: 2px solid #6c4cf1;
+}
+
+.metrics-card-metrics {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.metrics-checkbox {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 0.9rem;
+  color: #6c4cf1;
+  font-weight: 600;
+}
+
+.metrics-checkbox input[type="checkbox"] {
+  accent-color: #6c4cf1;
+  width: 18px;
+  height: 18px;
+}
+
+.metrics-progress {
+  display: flex;
+  align-items: center;
+}
+
+.metrics-progress-badge {
+  background: #6c4cf1;
+  color: #eceafe;
+  font-size: 0.7rem;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 2px 12px;
+  margin-left: 8px;
+  letter-spacing: 0.5px;
+}
+
+.metrics-card-value {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.metrics-value {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.1;
+}
+
+.metrics-value-label {
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 2px;
+}
+
+.metrics-card-today {
+  font-size: 0.7rem;
+  color: #6c4cf1;
+  font-weight: 500;
+  margin-top: -22px;
+  text-align: right;
+}

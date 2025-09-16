@@ -1,0 +1,100 @@
+/* --- MonthTrackCard Styles --- */
+.month-track-card {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 28px 32px 22px 32px;
+  max-width: 370px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.month-track-header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 16px;
+  font-size: 1.25rem;
+  font-weight: 500;
+  margin-bottom: 18px;
+}
+
+.month-track-title {
+  color: #222;
+  font-weight: 500;
+}
+
+.month-track-progress .progress-badge {
+  background: #6c4cf1;
+  color: #eceafe;
+  font-size: 0.95rem;
+  font-weight: 500;
+  border-radius: 12px;
+  padding: 2px 12px;
+  margin-left: 8px;
+  letter-spacing: 0.5px;
+}
+
+.month-track-menu {
+  font-size: 1.35rem;
+  color: #888;
+  margin-left: auto;
+  cursor: pointer;
+}
+
+.month-track-details {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+}
+
+.month-track-icon {
+  background: #222;
+  border-radius: 50%;
+  width: 52px;
+  height: 52px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2rem;
+  color: #222;
+}
+
+.month-track-info {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.month-track-hours {
+  font-size: 2.1rem;
+  font-weight: 700;
+  color: #222;
+  line-height: 1.1;
+}
+
+.month-track-count {
+  color: #222;
+}
+
+.month-track-total {
+  color: #888;
+  font-size: 1.1rem;
+  margin-left: 2px;
+  font-weight: 400;
+}
+
+.month-track-recommendation {
+  font-size: 0.7rem;
+  color: #666;
+  margin-top: 2px;
+  text-align: start;
+  padding-left: 5%;
+}
+
+.month-track-date {
+  font-size: 1rem;
+  color: #888;
+  font-weight: 500;
+  margin-left: 8px;
+}

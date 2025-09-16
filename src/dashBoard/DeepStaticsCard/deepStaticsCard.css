@@ -1,0 +1,67 @@
+/* --- DeepStaticsCard Styles --- */
+.deep-statics-card {
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.07);
+  padding: 28px 32px 22px 32px;
+  max-width: 340px;
+  font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+.deep-statics-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 18px;
+}
+
+.deep-statics-title {
+  font-size: 1.35rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.deep-statics-icon-group {
+  display: flex;
+  gap: 4px;
+}
+
+.deep-statics-dot {
+  width: 8px;
+  height: 8px;
+  background: #6c4cf1;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.deep-statics-chart {
+  position: relative;
+  width: 280px;
+  height: 280px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.deep-statics-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.deep-statics-value {
+  font-size: 2.3rem;
+  font-weight: 700;
+  color: #222;
+}
+
+.deep-statics-label {
+  font-size: 0.7rem;
+  color: #888;
+  margin-top: 2px;
+}
