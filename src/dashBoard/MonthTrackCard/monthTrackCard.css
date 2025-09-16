@@ -6,6 +6,9 @@
   padding: 28px 32px 22px 32px;
   max-width: 370px;
   font-family: 'Segoe UI', Arial, sans-serif;
+  height: auto;
+  min-height: 0;
+  margin: 5ps auto;
 }
 
 .month-track-header {

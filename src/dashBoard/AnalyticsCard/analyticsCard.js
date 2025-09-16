@@ -63,7 +63,7 @@ const AnalyticsCard = memo(() => {
   }, []);
 
   return (
-    <div className="analytics-card">
+    <div className="analytics-card fade-in-analytics">
       <div className="analytics-tabs">
         <button
           className={`analytics-tab${activeTab === "Worldwide" ? " active" : ""}`}

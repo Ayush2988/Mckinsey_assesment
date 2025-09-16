@@ -19,7 +19,7 @@ const MetricsCard = memo(() => {
   }, []);
 
   return (
-    <div className="metrics-card">
+    <div className="metrics-card fade-in-analytics">
       <div className="metrics-card-header">
         <img className="metrics-avatar" src="https://randomuser.me/api/portraits/lego/1.jpg" alt="User" />
         <span className="metrics-pin">📌</span>

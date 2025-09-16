@@ -10,6 +10,12 @@
   background: #fafbfc;
 }
 
+.app-main-flex {
+  display: flex;
+  min-height: 100vh;
+  background: #fafbfc;
+}
+
 .app-content {
   flex: 1;
   display: flex;
@@ -17,6 +23,15 @@
   align-items: center;
   justify-content: flex-start;
   min-height: 100vh;
+}
+
+.app-dashboard-area {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 0;
 }
 
 .app-cards-layout {
@@ -28,11 +43,31 @@
   margin: 40px auto;
 }
 
-.app-cards-left, .app-cards-right {
+.app-cards-left {
   display: flex;
   flex-direction: column;
   gap: 32px;
-  flex: 1;
+  flex: 1 1 0;
+  min-width: 0;
+}
+
+.app-cards-right {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  flex: 0 0 340px;
+  min-width: 0;
+}
+
+.app-cards-flex {
+  display: flex;
+  flex-direction: row;
+  gap: 32px;
+  width: 100%;
+  max-width: 900px;
+  margin-top: 32px;
+  justify-content: center;
+  align-items: flex-start;
 }
 
 .App-logo {

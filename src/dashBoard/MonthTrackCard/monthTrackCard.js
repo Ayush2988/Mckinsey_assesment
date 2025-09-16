@@ -20,7 +20,7 @@ const MonthTrackCard = memo(() => {
   }, []);
 
   return (
-    <div className="month-track-card">
+    <div className="month-track-card fade-in-analytics">
       <div className="month-track-header">
         <span className="month-track-title">This month track</span>
         <span className="month-track-progress">

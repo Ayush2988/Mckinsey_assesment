@@ -2,7 +2,7 @@ import React from "react";
 import "./securityHeader.css";
 
 const SecurityHeader = () => (
-  <div className="security-header">
+  <div className="security-header fade-in-analytics">
     <div className="security-header-user">
       <img
         className="security-header-avatar"

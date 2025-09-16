@@ -18,7 +18,7 @@ const DeepStaticsCard = memo(() => {
   }, []);
 
   return (
-    <div className="deep-statics-card">
+    <div className="deep-statics-card fade-in-analytics">
       <div className="deep-statics-header">
         <span className="deep-statics-title">Deep Statics</span>
         <span className="deep-statics-icon-group">
@@ -29,7 +29,7 @@ const DeepStaticsCard = memo(() => {
         </span>
       </div>
       <div className="deep-statics-chart">
-        <svg width="280" height="280" viewBox="0 0 180 180">
+        <svg width="250" height="250" viewBox="0 0 180 180">
           <circle cx="90" cy="90" r="70" stroke="#eceafe" strokeWidth="8" fill="none" />
           <circle cx="90" cy="90" r="70" stroke="#6c4cf1" strokeWidth="8" fill="none"
             strokeDasharray={2 * Math.PI * 70}
